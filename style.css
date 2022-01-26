@@ -1,0 +1,70 @@
+.heading {
+    color: black;
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: 20px;
+    width: 95%;
+    margin-top: 20px;
+    box-shadow: 10px 10px 10px black;
+}
+.note {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16;
+    font-weight: bold;
+    color: black;
+}
+.copy_right_footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20;
+    font-weight: bold;
+    color: black;
+    bottom: 10;
+    position: fixed;
+    background-color: cornflowerblue;
+    width: 100%;
+    text-align: center;
+    animation-name: colorchange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colorchange {
+    from {text-shadow: 2px 5px 8px lightcoral;}
+    to {text-shadow: 2px 5px 10px red;}
+    to {text-shadow: 2px 5px 10px darkred;}
+    to {text-shadow: 2px 5px 10px darkred;}
+    to {text-shadow: 2px 5px 10px lightsalmon}
+    to {text-shadow: 2px 5px 10px orangered;}
+    to {text-shadow: 2px 5px 10px orange;}
+    to {text-shadow: 2px 5px 10px lightgreen;}
+    to {text-shadow: 2px 5px 10px green;}
+    to {text-shadow: 2px 5px 10px yellowgreen;}
+    to {text-shadow: 2px 5px 10px greenyellow;}
+    to {text-shadow: 2px 5px 10px lightyellow;}
+    to {text-shadow: 2px 5px 10px yellow;}
+    to {text-shadow: 2px 5px 10px darkgrey;}
+    to {text-shadow: 2px 5px 10px lightslategrey;}
+    to {text-shadow: 2px 5px 10px black;}
+}
+canvas {
+    border: 5px solid black;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+body {
+    animation-name: backgroundcolorchange;
+    animation-duration: 50s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes backgroundcolorchange {
+    0%  {background: orange;}
+    10% {background: red;}
+    20% {background: darkred;}
+    30% {background: forestgreen;}
+    40% {background: lightgreen;}
+    50% {background: greenyellow;}
+    60% {background: yellow;}
+    70% {background: lightyellow;}
+    80% {background: skyblue;}
+    90% {background: blue;}
+    100%{background: darkblue;}
+}
